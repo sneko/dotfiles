@@ -1,8 +1,8 @@
 # sneko's 🫥files
 
-> These are my dotfiles for my daily usage, if you want to quick start a setup and get the same terminal style... you can use it by cloning the repository and follow instructions below.
+> These are my dotfiles for my daily usage, if you want to quick start a setup and get the same terminal style... you can use it by cloning the repository and following instructions below.
 >
-> Note: it's very likely you will customize my settings then, so probably better to fork the repository to keep your own backup. By the way... don't forget to replace the nickname `sneko` where appropriate ;)
+> Note: it's very likely you would customize my settings then, so probably better to fork the repository to keep your own backup. By the way... don't forget to replace the nickname `sneko` where appropriate ;)
 
 ![screenshot](docs/screenshots/terminal.png)
 
@@ -12,7 +12,36 @@
 2. Clone this repository to your computer: `git clone https://github.com/sneko/dotfiles.git`
 3. ⚠️ In the repository folder just deploy files: `dotter deploy` **(this may override your own files so please do backups if appropriate)** ⚠️
 
+**Remember this will only install settings files, it won't bring tools binaries by magic 🪄. I put a link for each tool so you can follow their latest installation guide.**
+
 _If you don't need all my stuff, adjust the repository folder before deploying._
+
+### Additional steps
+
+#### `.vscode/settings.json`
+
+The Visual Studio Code configuration location depends on the OS so for now you need to use your own custom symlink if wanted (I will try to improve this later, `dotter` may have conditioning for this).
+
+Reference: https://stackoverflow.com/questions/44575312/change-vscode-user-settings-location
+
+#### `.gitconfig`
+
+I did not set my personal data into the committed `.gitconfig`, but this one will include the file `.gitconfig.local` to set sensitive information. In my case it results in:
+
+```
+[user]
+	email = thomas@mydomain.com
+	name = Thomas Ramé
+```
+
+#### `.zshrc`
+
+Almost all `Oh My Zsh` plugins I use are embedded when installing, but some require a manual install:
+
+- `zsh-autosuggestions`: https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
+- `zsh-syntax-highlighting`: https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
+- `zsh-history-substring-search`: https://github.com/zsh-users/zsh-history-substring-search
+- `auto-notify`: https://github.com/MichaelAquilina/zsh-auto-notify
 
 ## List of tools
 
@@ -38,7 +67,7 @@ _Note: tools listed are preferably are open-source and well-adopted so they keep
     - I set the font into my `alacritty` terminal but also into the default MacOS Terminal (see their README)
     - To make colors great I use the `iTerm` default colors while setting as background/foreground the `Visual Studio Code` style
   - Plugins:
-    - _(the list is described into manager config)_
+    - _(the list is described into the `Oh My Zsh` config)_
     - ...
 
 - Editor: [micro](https://micro-editor.github.io/) 🛰️ _(replaced my old `nano` to get harmonized shortcuts and advanced features)_

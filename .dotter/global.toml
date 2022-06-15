@@ -4,8 +4,17 @@
 depends = []
 
 [default.files]
-LICENSE = ""
+"docs" = ""
+"LICENSE" = ""
 "README.md" = ""
-docs = ""
+
+".cargo/config" = "~/.cargo/config"
+".config/alacritty/alacritty.yml" = "~/.config/alacritty/alacritty.yml"
+".vscode/settings.json" = "~/.vscode/settings.json"
+
+".gitconfig" = "~/.gitconfig"
+".p10k.zsh" = "~/.p10k.zsh"
+".zshenv" = "~/.zshenv"
+".zshrc" = "~/.zshrc"
 
 [default.variables]

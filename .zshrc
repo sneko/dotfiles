@@ -5,13 +5,6 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-### CUSTOM (not from ohmyzsh)
-if [ -f ~/.bash_profile ]; then 
-    . ~/.bash_profile;
-fi
-###
-
-
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -84,7 +77,47 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(
+  adb
+  ansible
+  asdf
+  auto-notify
+  aws
+  bazel
+  bundler
+  command-not-found
+  copybuffer
+  copyfile
+  copypath
+  dirhistory
+  docker
+  docker-compose
+  gcloud
+  gem
+  git
+  git
+  golang
+  gradle
+  helm
+  istioctl
+  jsontools
+  kubectl
+  npm
+  pip
+  poetry
+  python
+  rsync
+  rust
+  sudo
+  terraform
+  tmux
+  transfer
+  web-search
+  yarn
+  zsh-autosuggestions
+  zsh-history-substring-search
+  zsh-syntax-highlighting
+)
 
 source $ZSH/oh-my-zsh.sh
 

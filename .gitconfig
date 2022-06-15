@@ -1,0 +1,15 @@
+[url "git@bitbucket.org:"]
+	insteadOf = https://bitbucket.org/
+
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+
+[core]
+	autocrlf = input
+
+[init]
+	defaultBranch = main
+
+# Include local overrides
+[include]
+	path = .gitconfig.local
