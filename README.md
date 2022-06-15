@@ -8,7 +8,11 @@
 
 ## Installation
 
-TODO
+1. Install [Dotter](https://github.com/SuperCuber/dotter)
+2. Clone this repository to your computer: `git clone https://github.com/sneko/dotfiles.git`
+3. ⚠️ In the repository folder just deploy files: `dotter deploy` **(this may override your own files so please do backups if appropriate)** ⚠️
+
+_If you don't need all my stuff, adjust the repository folder before deploying._
 
 ## List of tools
 
