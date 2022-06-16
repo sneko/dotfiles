@@ -2,11 +2,15 @@
 
 > These are my dotfiles for my daily usage, if you want to quick start a setup and get the same terminal style... you can use it by cloning the repository and following instructions below.
 >
-> Note: it's very likely you would customize my settings then, so probably better to fork the repository to keep your own backup. By the way... don't forget to replace the nickname `sneko` where appropriate ;)
+> I also set all the tools I see needed for the daily usage of a developer, since won't install them by default, the main goal of this repository is for dotfiles, I just set tool list to help a bit my memory 🥰
+>
+> Note: it's very likely you would customize my settings then, so probably better to fork the repository to keep your own backup. By the way... don't forget to replace the nickname `sneko` where appropriate 🫠
 
 ![screenshot](docs/screenshots/terminal.png)
 
 ## Installation
+
+### Dotfiles
 
 1. Install [Dotter](https://github.com/SuperCuber/dotter)
 2. Clone this repository to your computer: `git clone https://github.com/sneko/dotfiles.git`
@@ -18,11 +22,23 @@ _If you don't need all my stuff, adjust the repository folder before deploying._
 
 ### Additional steps
 
+#### Tools
+
+Please see the file [packages.ini](packages.ini) to choose which packages you want to install that are not managed by `asdf`.
+
+Depending on your platform I advise you to use a version manager, for example:
+
+- Windows: [Scoop](https://scoop.sh/)
+- MacOS: [Homebrew](https://brew.sh/)
+- Linux: _I have no reference, but could depend on your platform `apt`, `yum`..._
+
 #### `.vscode/settings.json`
 
 The Visual Studio Code configuration location depends on the OS so for now you need to use your own custom symlink if wanted (I will try to improve this later, `dotter` may have conditioning for this).
 
 Reference: https://stackoverflow.com/questions/44575312/change-vscode-user-settings-location
+
+Also here are the extensions I installed:
 
 #### `.gitconfig`
 
@@ -42,6 +58,24 @@ Almost all `Oh My Zsh` plugins I use are embedded when installing, but some requ
 - `zsh-syntax-highlighting`: https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
 - `zsh-history-substring-search`: https://github.com/zsh-users/zsh-history-substring-search
 - `auto-notify`: https://github.com/MichaelAquilina/zsh-auto-notify
+
+#### `.asdfrc`
+
+You must install plugins to manage languages/clients you use:
+
+- node: https://github.com/asdf-vm/asdf-nodejs
+- golang: https://github.com/kennyp/asdf-golang
+- rust: https://github.com/asdf-community/asdf-rust
+- python: https://github.com/danhper/asdf-python
+- ruby: https://github.com/asdf-vm/asdf-ruby
+
+- kubectl: https://github.com/asdf-community/asdf-kubectl
+- istioctl: https://github.com/virtualstaticvoid/asdf-istioctl
+- mysql: https://github.com/iroddis/asdf-mysql
+- postgresql: https://github.com/smashedtoatoms/asdf-postgres
+- poetry: https://github.com/asdf-community/asdf-poetry
+
+**Note: when you install global binaries like with `go install ...` or `npm -g ...` it won't be available in the shell until you do `asdf reshim <name> <version>`.**
 
 ## List of tools
 

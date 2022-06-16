@@ -1,3 +1,16 @@
+# Set personal settings into a separate file that won't be commited
+[[ ! -f ~/.zshrc.local ]] || source ~/.zshrc.local
+
+# Adding a space at the beginning of a command prevents it to be in the history
+export HISTCONTROL=ignorespace
+setopt HIST_IGNORE_SPACE
+
+#
+#
+# All the following is related to "Oh My Zsh!"
+#
+#
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -81,7 +94,6 @@ plugins=(
   adb
   ansible
   asdf
-  auto-notify
   aws
   bazel
   bundler

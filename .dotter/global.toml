@@ -6,14 +6,22 @@ depends = []
 [default.files]
 "docs" = ""
 "LICENSE" = ""
+".gitignore" = ""
+".editorconfig" = ""
 "README.md" = ""
+"packages.ini" = ""
 
 ".cargo/config" = "~/.cargo/config"
 ".config/alacritty/alacritty.yml" = "~/.config/alacritty/alacritty.yml"
 ".vscode/settings.json" = "~/.vscode/settings.json"
 
+".asdfrc" = "~/.asdfrc"
+".default-golang-pkgs" = "~/.default-golang-pkgs"
+".default-npm-packages" = "~/.default-npm-packages"
+".default-python-packages" = "~/.default-python-packages"
 ".gitconfig" = "~/.gitconfig"
 ".p10k.zsh" = "~/.p10k.zsh"
+".tool-versions" = "~/.tool-versions"
 ".zshenv" = "~/.zshenv"
 ".zshrc" = "~/.zshrc"
 

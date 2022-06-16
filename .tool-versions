@@ -1,0 +1,11 @@
+nodejs 16.15.0
+golang 1.18.3 1.16.15
+rust 1.61.0
+python 3.10.4 2.7.18
+ruby 3.1.2
+
+mysql 8.0.29 5.7.38
+postgres 14.4
+kubectl 1.22.5
+istioctl 1.12.2
+poetry 1.1.13
