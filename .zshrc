@@ -5,6 +5,8 @@
 export HISTCONTROL=ignorespace
 setopt HIST_IGNORE_SPACE
 
+export ZSH_TMUX_AUTOSTART=false
+
 #
 #
 # All the following is related to "Oh My Zsh!"
@@ -141,11 +143,11 @@ source $ZSH/oh-my-zsh.sh
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='nano'
+else
+  export EDITOR='micro'
+fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"

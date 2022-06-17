@@ -93,7 +93,8 @@ _Note: tools listed are preferably are open-source and well-adopted so they keep
 - Shell: [zsh](https://www.zsh.org/) 🎁 _(interactive shell, now set by default on Macbooks)_
   - It has been configured to not keep history of a sensible command if you prefix it with a space
 - Terminal: [alacritty](https://alacritty.org/) 🎁 _(brings more features than my default MacOS terminal, and it's cross-platform so great when I end on a company computer Linux/Windows...)_
-  - Terminal splitter: [tmux](https://github.com/tmux/tmux/wiki) 🎁 _(dealing with multiple Terminals is painful if they cannot be splitted into 1 window, that does the trick!)_
+  - Terminal splitter: [tmux](https://github.com/tmux/tmux/wiki) 🎁 _(dealing with multiple Terminals is painful if they cannot be splitted into 1 window, that does the trick! My settins base is from https://github.com/gpakosz/.tmux thanks to the maintainer!)_
+    - tmux plugins: [tmp](https://github.com/tmux-plugins/tpm)
 - Shell plugins/themes manager: [Oh My Zsh](https://ohmyz.sh/) 🎁 _(it's a framework to easily get cool stuff into your shell)_
 
   - Theme: [powerlevel10k](https://github.com/romkatv/powerlevel10k) 🎁 _(one of the fastest themes and fully customizable)_
