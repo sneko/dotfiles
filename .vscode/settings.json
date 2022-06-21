@@ -6,6 +6,9 @@
   "go.lintOnSave": "workspace",
   "go.vetOnSave": "workspace",
   "go.buildOnSave": "workspace",
+  "go.alternateTools": {
+    "go": "/Users/sneko/.asdf/shims/go"
+  },
   "workbench.startupEditor": "newUntitledFile",
   "python.languageServer": "Pylance",
   "[vue]": {

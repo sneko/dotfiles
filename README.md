@@ -4,7 +4,7 @@
 >
 > I also set all the tools I see needed for the daily usage of a developer, since won't install them by default, the main goal of this repository is for dotfiles, I just set tool list to help a bit my memory 🥰
 >
-> Note: it's very likely you would customize my settings then, so probably better to fork the repository to keep your own backup. By the way... don't forget to replace the nickname `sneko` where appropriate 🫠
+> Note: it's very likely you would customize my settings then, so probably better to fork the repository to keep your own backup. By the way... don't forget to replace the nickname `sneko` where appropriate (perform a `Find all` with your IDE) 🫠
 
 ![screenshot](docs/screenshots/terminal.png)
 
