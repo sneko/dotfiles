@@ -1,4 +1,9 @@
 {
+  "jest.autoRun": {
+    "watch": true,
+    "onStartup": []
+  },
+  "jest.showTerminalOnLaunch": false,
   "go.useLanguageServer": true,
   "go.testFlags": ["-v", "-count=1"],
   "go.testTimeout": "120s",
