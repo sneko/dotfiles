@@ -114,7 +114,7 @@ _Tools listed in the [packages.ini](packages.ini) cannot totally reflect what's 
 - Version manager for many languages: [asdf](https://asdf-vm.com/) 🎁 _(replaces `nvm`, `gvm`... dealing with multiple version managers can be painful, this is the right fit!)_
 - Binary tool manager: [brew](https://brew.sh/) 🛰️ _(requires MacOS. Almost all tools are available, it avoids dealing with manual updates...)_
 - Web based repositories: _no specific one, either GitHub, Bitbucket, Gitlab... the one that fits your project, pricing and your values_
-- Realtime collaborative conception (diagram/flowchat): [diagrams.net](https://www.diagrams.net/) 🛰️ _(if you do or mimic `Unified Modeling Language (UML)` this tool is the best, compatible with multiple drive providers!)_
+- Realtime collaborative conception (diagram/flowchat): [diagrams.net](https://www.diagrams.net/) 🛰️ _(if you do or mimic `Unified Modeling Language (UML)` this tool is the best, compatible with multiple drive providers! Also there are native versions for all platforms and an extension for VSCode so you bring schemas next to your code!)_
 
 #### Mobile development
 
