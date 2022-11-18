@@ -7,6 +7,9 @@ setopt HIST_IGNORE_SPACE
 
 export ZSH_TMUX_AUTOSTART=false
 
+# Kubernetes plugins manager
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+
 #
 #
 # All the following is related to "Oh My Zsh!"
@@ -118,6 +121,7 @@ plugins=(
   kubectl
   npm
   pip
+  # pnpm (this is enabled by running `pnpm install-completion` that adds bloc lines below)
   poetry
   python
   rsync
@@ -163,3 +167,11 @@ fi
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# For simplicity
+alias pn=pnpm
+
+# (the following bloc is added by `pnpm`)
+# tabtab source for packages
+# uninstall by removing these lines
+[[ -f ~/.config/tabtab/zsh/__tabtab.zsh ]] && . ~/.config/tabtab/zsh/__tabtab.zsh || true
