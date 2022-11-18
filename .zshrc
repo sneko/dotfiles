@@ -170,6 +170,10 @@ fi
 
 # For simplicity
 alias pn=pnpm
+alias kl=kubectl
+alias kx=kubectx
+alias kn=kubens
+alias ki=kubie
 
 # (the following bloc is added by `pnpm`)
 # tabtab source for packages
