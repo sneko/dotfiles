@@ -19,6 +19,7 @@ depends = []
 ".default-golang-pkgs" = "~/.default-golang-pkgs"
 ".default-npm-packages" = "~/.default-npm-packages"
 ".default-python-packages" = "~/.default-python-packages"
+".docker-aliases.sh" = { target = "~/.docker-aliases.sh", type = "symbolic" }
 ".gitconfig" = "~/.gitconfig"
 ".p10k.zsh" = "~/.p10k.zsh"
 ".tmux.conf" = "~/.tmux.conf"

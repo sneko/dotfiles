@@ -169,6 +169,7 @@ fi
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # For simplicity
+source ~/.docker-aliases.sh
 alias pn=pnpm
 alias kl=kubectl
 alias kx=kubectx
