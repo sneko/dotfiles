@@ -176,6 +176,9 @@ alias kx=kubectx
 alias kn=kubens
 alias ki=kubie
 
+# Scalingo
+source ~/.zsh/completion/scalingo_complete.zsh
+
 # (the following bloc is added by `pnpm`)
 # tabtab source for packages
 # uninstall by removing these lines

@@ -14,6 +14,7 @@ depends = []
 ".cargo/config" = "~/.cargo/config"
 ".config/alacritty/alacritty.yml" = "~/.config/alacritty/alacritty.yml"
 ".vscode/settings.json" = "~/.vscode/settings.json"
+".zsh/completion/scalingo_complete.zsh" = "~/.zsh/completion/scalingo_complete.zsh"
 
 ".asdfrc" = "~/.asdfrc"
 ".default-golang-pkgs" = "~/.default-golang-pkgs"
