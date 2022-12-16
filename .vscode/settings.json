@@ -1,4 +1,5 @@
 {
+  "faker.locale": "fr",
   "jest.autoRun": {
     "watch": true,
     "onStartup": []
