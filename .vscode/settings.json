@@ -55,5 +55,6 @@
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "terminal.explorerKind": "external"
+  "terminal.explorerKind": "external",
+  "terminal.integrated.allowMnemonics": true
 }
