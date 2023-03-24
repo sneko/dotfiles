@@ -55,6 +55,7 @@
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "workbench.iconTheme": "vscode-icons",
   "terminal.explorerKind": "external",
   "terminal.integrated.allowMnemonics": true
 }
