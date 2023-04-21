@@ -118,6 +118,7 @@ _Tools listed in the [packages.ini](packages.ini) cannot totally reflect what's 
 - Database administration tool: [DBeaver](https://dbeaver.io/) 🛰️ _(on MacOS I replaced the `F5` shortcut to refresh data with `CMD+R`, also for doing backup/restore I set my `asdf` local clients by pointing the `home directory` to `~/.asdf/shims`)_
 - Realtime collaborative development: [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) 🛰️ _(it's a VSCode extension)_
 - Helpers: [DevToys](https://github.com/ObuchiYuki/DevToysMac) to convert/encode/decode/format/generate things like URL/HTML/Base64/JWT/UUID/date/LoremIpsum/Hash...
+- Docker replacement: [Podman](https://podman.io) solved for me Docker high CPU usage and it provides rootless experience (ref for the setup: https://github.com/docker/for-mac/issues/6655#issuecomment-1517497715)
 
 #### Mobile development
 
