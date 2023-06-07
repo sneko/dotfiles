@@ -48,6 +48,7 @@ Almost all `Oh My Zsh` plugins I use are embedded when installing, but some requ
 You must install plugins to manage languages/clients you use:
 
 - node: https://github.com/asdf-vm/asdf-nodejs
+- pnpm: https://github.com/jonathanmorley/asdf-pnpm
 - golang: https://github.com/kennyp/asdf-golang
 - rust: https://github.com/asdf-community/asdf-rust
 - python: https://github.com/danhper/asdf-python

@@ -183,3 +183,8 @@ source ~/.zsh/completion/scalingo_complete.zsh
 # tabtab source for packages
 # uninstall by removing these lines
 [[ -f ~/.config/tabtab/zsh/__tabtab.zsh ]] && . ~/.config/tabtab/zsh/__tabtab.zsh || true
+
+# pnpm
+export PNPM_HOME="/Users/sneko/Library/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+# pnpm end
