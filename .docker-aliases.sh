@@ -116,6 +116,3 @@ alias drun=drun-fn
 alias dsp="docker system prune --all"
 alias dsr=dsr-fn
 
-# use podman since docker has randomly high cpu usage
-alias docker=podman
-alias docker-compose=podman-compose
