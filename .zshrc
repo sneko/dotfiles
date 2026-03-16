@@ -154,6 +154,12 @@ fi
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+# Brew packages (those not inside `/opt/homebrew/bin`)
+export PATH="$HOME/.local/bin:$PATH"
+
+# Docker
+export PATH="/Applications/Docker.app/Contents/Resources/bin:$PATH"
+
 # For simplicity
 source ~/.docker-aliases.sh
 alias pn=pnpm
