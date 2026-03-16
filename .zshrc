@@ -99,9 +99,6 @@ plugins=(
   adb
   ansible
   asdf
-  aws
-  bazel
-  bundler
   command-not-found
   copybuffer
   copyfile
@@ -109,29 +106,18 @@ plugins=(
   dirhistory
   docker
   docker-compose
-  gcloud
   gem
   git
-  git
-  golang
-  gradle
   helm
-  istioctl
-  jsontools
   kubectl
   npm
   pip
   # pnpm (this is enabled by running `pnpm install-completion` that adds bloc lines below)
-  poetry
   python
-  rsync
   rust
   sudo
   terraform
-  tmux
   transfer
-  web-search
-  yarn
   zsh-autosuggestions
   zsh-history-substring-search
   zsh-syntax-highlighting
